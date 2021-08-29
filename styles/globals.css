@@ -5,6 +5,7 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   max-width: 1100px;
   margin: auto;
+  height: 100%;
 }
 
 a {
@@ -18,5 +19,14 @@ a {
 
 .title {
   color: aqua;
+  text-align: center;
+}
+
+#__next {
+  height: 100%;
+}
+
+.title-not-found {
+  color: darkgray;
   text-align: center;
 }
